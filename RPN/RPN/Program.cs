@@ -2,7 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 
-namespace RPN
+namespace FunctionBuilder.Console
 {   
     class Program
     {
@@ -10,12 +10,6 @@ namespace RPN
         {
             Calculator calc = new Calculator("|1,5*(10+6)|");
             Console.WriteLine(calc.Answer);
-
-
         }
     }
-}
-// файл:
-// 1. функция
-// 2. шаг
-// 3. Диапозон
+} 

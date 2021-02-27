@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace RPN
+namespace FunctionBuilder.Logic
 {
     public abstract class Operations
     {
@@ -28,7 +28,7 @@ namespace RPN
         public override int Priority => 2;
         public override double Calculate(double[] numbers) { return numbers[1] * numbers[0]; }
     }
-    public class Dev: Operations
+    public class Dev : Operations
     {
         public override string Name => "/";
         public override int Priority => 2;
